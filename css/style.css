@@ -1,0 +1,161 @@
+body {
+  background: rgb(221, 221, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(221, 221, 221, 1) 0%,
+    rgba(199, 199, 199, 1) 50%,
+    rgba(215, 215, 215, 1) 100%
+  );
+  font-size: 0.6rem;
+}
+
+.navbar-color {
+  background: rgb(0, 134, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 134, 255, 1) 0%,
+    rgb(0, 93, 168) 50%
+  );
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.body-main {
+  margin-top: 1rem;
+}
+
+.form-control {
+  font-size: 0.6rem;
+}
+
+.dropdown-menu {
+  font-size: 0.6rem;
+}
+
+.popover-body {
+  padding: 0.5rem;
+  font-size: 0.6rem;
+  color: orangered;
+}
+
+.form-select {
+  font-size: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  font-size: 0.6rem;
+  height: 22px;
+  padding: 2px 7px;
+}
+
+.input-group-append {
+  cursor: pointer;
+}
+
+.header-detail {
+  max-width: 100px;
+}
+
+.header-detail img {
+  max-width: 40px;
+  margin: 0 auto;
+}
+
+.table-responsive thead tr {
+  text-align: center;
+}
+
+.container-fluid {
+  height: 50px;
+}
+
+/* navigation */
+.navigation {
+  /* max-width: 100%; */
+  max-width: 1300px;
+  /* background: rgb(0, 134, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 134, 255, 1) 0%,
+    rgb(0, 93, 168) 50%
+  ); */
+  margin: 0 auto;
+  position: relative;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
+}
+
+.box-navigation-container {
+  background: rgb(0, 134, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 134, 255, 1) 0%,
+    rgb(0, 93, 168) 50%
+  );
+}
+
+.navigation-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.navigation-item span {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.7rem;
+}
+
+.navigation-item span a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation-item span a:hover {
+  color: rgb(0, 3, 49);
+}
+
+.navigation-item {
+  align-self: center;
+  text-align: center;
+}
+
+.navigation-contact img {
+  width: 25px;
+  padding: 1px;
+  background-color: #fff;
+}
+/* navigation */
+
+/* transactionTable */
+#table-responsive {
+  overflow: auto;
+  max-height: 1000px;
+}
+
+#transactionTable thead,
+#transactionTable th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #c0c0c0;
+  border-color: black;
+}
+
+.table {
+  border-color: #212529;
+}
+
+.month-button {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.box .col-4 {
+}
+/* transactionTable */
