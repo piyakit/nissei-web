@@ -1,3 +1,15 @@
+<?php
+// Start session
+session_start();
+
+// Check if the user is not logged in
+if (isset($_SESSION['user_id'])) {
+  // Redirect to login.php
+  header("Location: forcast.php");
+  exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -119,8 +131,8 @@
         </div>
       </div>
     </div>
+    <div style="text-align: center;"><?php include 'footer.php'; ?></div>
   </form>
-  <footer style="text-align: center;"><?php include 'footer.php'; ?></footer>
 </body>
 
 </html>

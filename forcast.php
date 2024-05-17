@@ -9,6 +9,8 @@ if (!isset($_SESSION['user_id'])) {
   exit();
 }
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,6 +30,11 @@ if (!isset($_SESSION['user_id'])) {
     .card-forecast {
       height: 85vh;
       overflow: hidden;
+    }
+
+    #table-responsive  {
+      max-height: 600px;
+      /* overflow: hidden; */
     }
   </style>
 </head>
