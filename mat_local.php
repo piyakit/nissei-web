@@ -35,7 +35,7 @@ if (!isset($_SESSION['user_id'])) {
 
 <body>
   <?php include 'header.php'; ?>
-  <div class="container">
+  <div class="">
     <div class="body-main">
       <div class="row flex-center min-vh-100 py-6 justify-content-center">
         <div>
@@ -670,9 +670,9 @@ if (!isset($_SESSION['user_id'])) {
 
                 $("#data3").append(
                   "<tr>" +
-                  "<td>" + row + "</td>" +
-                  "<td>" + item.material + "</td>" +
-                  "<td>" + item.vendor + "</td>" +
+                  "<td style='position: sticky; left: 0px; background-color: #fff;'>" + row + "</td>" +
+                  "<td style='position: sticky; left: 30px; background-color: #fff;'>" + item.material + "</td>" +
+                  "<td style='position: sticky; left: 110px; background-color: #fff;'>" + item.vendor + "</td>" +
                   "<td>" + item.groups + "</td>" +
                   "<td>" + item.qty + "</td>" +
                   "<td>" + item.unit + "</td>" +

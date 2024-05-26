@@ -31,12 +31,22 @@ $month_now = date('n')
       min-width: 100px;
       height: 100%;
     }
+
+    .side-fixed {
+      background-color: #217fd1;
+    }
+
+    th, td { white-space: nowrap; }
+    div.dataTables_wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
   </style>
 </head>
 
 <body>
   <?php include 'header.php'; ?>
-  <div class="container">
+  <div class="">
     <div class="body-main">
       <div class="row flex-center min-vh-100 py-6 justify-content-center">
         <div>
@@ -573,8 +583,8 @@ $month_now = date('n')
 
                 $("#data3").append(
                   "<tr>" +
-                  "<td>" + row + "</td>" +
-                  "<td>" + item.material + "</td>" +
+                  "<td style='position: sticky; left: 0px; background-color: #fff;'>" + row + "</td>" +
+                  "<td style='position: sticky; left: 30px; background-color: #fff;'>" + item.material + "</td>" +
                   "<td>" + item.vendor + "</td>" +
                   "<td>" + item.groups + "</td>" +
                   "<td>" + item.qty + "</td>" +
